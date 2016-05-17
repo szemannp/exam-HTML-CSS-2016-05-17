@@ -1,0 +1,69 @@
+body {
+  font-family: arial;
+}
+
+.wrapper{
+  background-color: rgb(204, 204, 204);
+  box-sizing: border-box;
+  height: 200px;
+  width: 570px;
+}
+
+.duck-container {
+  position: absolute;
+  width: 136px;
+  display: inline-block;
+  text-align: center;
+  border-right: 1px, solid, black;
+}
+
+.duckling {
+  margin-top: 20px;
+  margin-left 20px;
+  margin-bottom: 80px;
+}
+
+.main-content {
+  margin-left: 136px;
+  display: inline-block;
+}
+
+.main-content > h1, .main-content > p, .main-content > .table-content {
+  float: left;
+  clear: left;
+  margin-left: 20px;
+} 
+
+.table-content {
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.data-type {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 24px;
+  font-style: italic;
+}
+
+p, table {
+  font-size: 14px;
+}
+
+.icon {
+  position: relative;
+  top: 166px;
+  left: 266px;
+}
+
+.wrapper > .icon { 
+  bottom: 20px;
+}
+
+
+
+
+
+
